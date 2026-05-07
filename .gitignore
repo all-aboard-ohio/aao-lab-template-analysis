@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw source data should be downloaded, not committed unless small)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.geojson
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.geojson
+data/processed/*.json
+
+# Credentials
+.env
+.env.local
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
